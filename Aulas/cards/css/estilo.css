@@ -1,0 +1,71 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .cards {
+        background-color: rgb(28, 108, 122);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        gap: 15px;
+        width: 250px;
+        border: 5px solid rgb(77, 150, 219);
+        border-radius: 18px;
+        padding: 20px;
+    }
+    .titulo {
+        font-size: 40px;
+        font-weight: 700;
+        color: rgb(9, 166, 194)
+    }
+    .paragrafo {
+        font-size: 15px;
+        font-weight: 12px;
+        color: rgb(12, 70, 85);
+    }
+    .container-estrelas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    li {
+        list-style: none;
+    }
+    svg {
+        width: 26px;
+    }
+    svg:hover {
+        fill: yellow;
+    }
+    .card img {
+        width: 250px;
+    }
+    .btn-enviar {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 24px;
+        border-radius: 8px;
+        width: 100px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .btn-enviar {
+        color: white;
+        text-decoration: none;
+    }
+    .btn-enviar:hover {
+        background-color: gray;
+    }
