@@ -3,25 +3,30 @@
         margin: 0;
         box-sizing: border-box;
     }
-    .cards {
+    .cards { 
+        align-items: stretch;
         background-color: rgb(28, 108, 122);
         width: 100%;
-        height: 100vh;
+        height:100vh;
+        gap: 15px;
         display: flex;
         justify-content: center;
         align-items: center;
+    
     }
     .card {
+        
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         background-color: white;
-        gap: 15px;
+        gap: 20px;
         width: 250px;
+        height: 700px;
         border: 5px solid rgb(77, 150, 219);
         border-radius: 18px;
-        padding: 20px;
+        padding: 30px 20px;
     }
     .titulo {
         font-size: 40px;
@@ -68,4 +73,9 @@
     }
     .btn-enviar:hover {
         background-color: gray;
+    }
+    .img-mochila {
+        max-height: 300px;
+        width: auto;
+        object-fit: contain;
     }
