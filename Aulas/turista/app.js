@@ -15,6 +15,9 @@ if (EscolhaUsuario == null || EscolhaUsuario == '') {
         } else if (EscolhaUsuario == 'montanha') {
             //alert('montanha...!!')
             window.location.href = './montanha.html'
+        } else if (EscolhaUsuario == 'lagoa') {
+            //alert('lagoa!!')
+            window.location.href = './lagoa.html'
         }
     }
 }
