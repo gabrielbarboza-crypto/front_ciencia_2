@@ -24,19 +24,27 @@ function FormataTexto(lista){
     }
 }
 //FormataTexto(jogadores)
-function adicao(n1, n2){
+function Adicao(n1, n2){
     return n1 + n2
 }
-const resultadodoAdicao = adicao(5, 25) +90 valor 120
-console.log(`adicao: ${resultadodoAdicao}`) 
-// function subtracao(n1, n2){
-//     return n1 / n2 
-// }
-
-
-
-
-//criar para divisão, multiplcação e subtração
+function Subtracao(n1, n2){
+     return n1 - n2  
+}
+function Divisao(n1, n2){
+    return n1 / n2
+}
+function Multiplicacao(n1, n2){
+    return n1 * n2
+}
+ const ResultadoAdicao = Adicao(5, 25) +90  //valor 120
+ console.log(`Adicao: ${ResultadoAdicao}`) 
+ const ResultadoSubtracao = Subtracao(60, 35 ) //valor 25
+ console.log(`Subtracao: ${ResultadoSubtracao}`)
+ const ResuladoDivisao = Divisao(55, 5 ) //valor 11
+ console.log(`Divisao: ${ResuladoDivisao}`)
+ const ResuladoMultiplicacao = Multiplicacao(7, 7 ) //valor 49
+ console.log(`Multiplicacao: ${ResuladoMultiplicacao}`)
+ 
 
 // invocar ou chamar função
 
